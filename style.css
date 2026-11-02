@@ -14,11 +14,11 @@ body,
 
 @font-face {
   font-family: Outfit;
-  src: url(../../Assets/Font/Outfit/Outfit-VariableFont_wght.ttf);
+  src: url(./Assets/Font/Outfit/Outfit-VariableFont_wght.ttf);
 }
 
 body {
-  background-image: url(../../Media/Home\ BG.png);
+  background-image: url(./Media/Home\ BG.png);
   background-size: 180vh;
   background-position: center;
   background-repeat: no-repeat;
