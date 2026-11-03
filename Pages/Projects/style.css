@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  overflow: hidden;
+  height: 100vh;
+  font-family: Outfit;
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(../../Assets/Font/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.navbar {
+  height: 12vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  flex-shrink: 0;
+  font-size: larger;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navbar button {
+  padding: 15px;
+  border: 1.8px solid white;
+  border-radius: 7px;
+  font-weight: bold;
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-size: large;
+}
