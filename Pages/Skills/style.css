@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  overflow: hidden;
+  height: 100vh;
+  font-family: Outfit;
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(../../Assets/Font/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.navbar {
+  height: 12vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  flex-shrink: 0;
+  font-size: larger;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navbar button {
+  padding: 15px;
+  border: 1.8px solid white;
+  border-radius: 7px;
+  font-weight: bold;
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-size: large;
+}
+
+.page {
+  display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 45%;
+  padding-left: 8vw;
+  padding-top: 10vh;
+  color: white;
+}
+
+.text .heading {
+  font-size: 20vh;
+  font-weight: bolder;
+}
+
+.text .sub {
+  font-size: 4vh;
+  font-weight: bolder;
+}
+
+.tech {
+  height: 12vh;
+  color: white;
+  align-items: center;
+  flex-shrink: 0;
+  font-size: x-large;
+}
+
+.tech .select {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.tech .select span {
+  color: white;
+  text-decoration: none;
+  margin-top: 5vh;
+  margin-right: 3vw;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.tech .select .lang {
+    border-bottom: solid 1px white;
+}
+
+.tech .list {
+  color: black;
+  list-style: none;
+  display: flex;
+  margin-top: 2.5vh;
+}
+
+.tech .list li {
+  background-color: white;
+  margin-right: 45px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.tech .list .lang {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.tech .list .front {
+  display: none;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.tech .list .back {
+  display: none;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.tech .list .aiml {
+  display: none;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.page img {
+  width: 55%;
+}
